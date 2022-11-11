@@ -1,2 +1,7 @@
-print("Percobaan 1000")
-print("ININ")
+nama = ["Budi", "Asep"]
+
+def sayHello(database):
+  for i in nama:
+    print(f"Hello {i}")
+
+sayHello("asep")
